@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+body{
+    background-image: url(imagens/Glassmorphism\ Header\ Concept.png);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    color:#FFFFFF
+}
+
+.main-container{
+	display: flex; /* Sets entrire card element to be a flex container */
+	flex-direction:column; /* Forces elements to align along the vertical axis */
+	max-width: 75rem; /* Base-spacing-unit multiplied 35 */
+	min-height: 80vh; /* Always at least 75% of the viewport */
+	background: linear-gradient(to right, #55439E, #952FFF);
+	box-shadow: 0 3px 8px rgb(126, 123, 123); /* Add a subtle drop shadow */
+    background-position: center;
+    margin: 80px;
+    border-radius: 12px;
+ 
+}
+
+#img-left-bottom{
+    position: absolute;
+    width: 284px;
+    height: 284px;
+    left: 20px;
+    bottom: 5px;
+}
+
+#img-right{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    right: 0px;
+    top:50px;
+}
+
+#img-left-top{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -5px;
+    top: -37px;
+
+
+}
+
+.info{
+    width: 100%;
+    max-width: 1117px;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-title{
+    position: absolute;
+    width: 480px;
+    height: 404px;
+    left: 162px;
+    top: 100px;
+}
+
+.info-title h1{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px; 
+    line-height: 60px;
+    text-transform: capitalize;
+    width: 431px;
+}
+
+.info-title p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    width: 431px;
+}
+
+.info-input{
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.info-input input{
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(255,255,255,0.7);
+    background: rgba(247, 238, 238, 0.15);
+    backdrop-filter: blur(45px);
+}
+
+.info-input input::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CDBFD8;
+    padding-left: 30px;
+    right: -30px;
+
+}
+
+
+.info-input button{
+    width: 120px;
+    height: 60px;
+    background-color:  #4F3AA7;
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    outline: none;
+    border: none;
+    position: absolute;
+    top:12px;
+    right: 0px;
+}
+
+.info-card{
+
+    width: 500px;
+    height: 300px;
+    left: 779px;
+    top: 200px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);  
+    border-radius: 20px;
+    position: absolute;
+    border: 1px solid rgb(255,255,255,0.7);
+    padding: 40px, 50px;
+    box-sizing: border-box;
+}
+
+.card{
+position: absolute;
+width: 400px;
+height: 220px;
+left: 50px;
+top: 40px;
+
+}
+.card-title{
+    
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    }
+.card-chip{
+    position: absolute;
+    width: 60px;
+    height: 43px;
+    left: 0px;
+    top: 70px;
+    background: #B293BD;
+    border-radius: 8px;
+}
+
+.card-footer{
+    position: absolute;
+    top: 170px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 10px;
+}
+#card-footer-date{
+    position: relative;
+  left: 350px;
+  bottom: 30px;
+    }
